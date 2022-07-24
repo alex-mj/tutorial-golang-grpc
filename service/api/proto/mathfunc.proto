@@ -1,0 +1,16 @@
+syntax = "proto3";
+package math;
+option go_package = "/math";
+
+service MathService {
+    rpc MathFunc(MathObject) returns (MathResponse) {}
+}
+message MathObject {
+    int32 a = 1;
+    int32 b = 2;
+    int32 c = 3;
+}
+
+message MathResponse {
+    int32 result = 1;
+}
