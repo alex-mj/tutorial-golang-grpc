@@ -14,9 +14,6 @@ I'm representing a mathematical function:
     int result;
 }`
 
-
-## Generate proto-files
-
 ### 1) You need to start with two proto-generated files (XXX_grpc.pb.go and XXX.pb.go)
 
 See or edit .proto-file (api/proto/mathfunc.proto)
