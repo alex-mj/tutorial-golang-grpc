@@ -1,4 +1,4 @@
-Hi
+Hi.
 I'm simple gRPC service on Golang.
 
 I seem very complexy. 
