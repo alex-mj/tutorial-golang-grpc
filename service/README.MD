@@ -70,7 +70,7 @@ create grpc server
 ```golang
     s := grpc.NewServer()
 ```
-link our handler with library server
+link our handler with library's server
 ```golang
 	pb.RegisterMathServiceServer(s, &api.GRPCServer{})
 ```
