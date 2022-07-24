@@ -92,4 +92,4 @@ try it launch
 ```bash 
 go run cmd/main.go
 ```
-if OK? go to client -=>
+if OK? go to client -=> https://github.com/alex-mj/simple-grp-srvc/blob/master/client/README.md
