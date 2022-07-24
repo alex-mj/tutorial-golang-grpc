@@ -17,13 +17,13 @@ I'm representing a mathematical function:
 ### 1) You need to start with two proto-generated files (XXX_grpc.pb.go and XXX.pb.go)
 
 See or edit .proto-file (api/proto/mathfunc.proto)
-than:
+then:
 ```bash
 protoc --go-grpc_out=. mathfunc.proto
 protoc --go_out=. mathfunc.proto          
 ```
 
-Than, prehaps, need set relation with go import:
+Then, prehaps, need set relation with go import:
 ```bash
 go mod tidy          
 ```
