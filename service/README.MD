@@ -70,9 +70,9 @@ create grpc server
 ```golang
     s := grpc.NewServer()
 ```
-link our handler with library's server
+link our handler to the grpc server
 ```golang
-	pb.RegisterMathServiceServer(s, &api.GRPCServer{})
+	pb.RegisterMathServiceServer(s, &api.MathServer{})
 ```
 If all OK (when interface implemented) go next. We need in listener for our server.
 ```golang
