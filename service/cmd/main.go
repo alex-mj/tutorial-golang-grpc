@@ -14,7 +14,7 @@ func main() {
 	fmt.Println("Hello, gRPC-world! -=>")
 
 	s := grpc.NewServer()
-	pb.RegisterMathServiceServer(s, &api.GRPCServer{})
+	pb.RegisterMathServiceServer(s, &api.MathServer{})
 
 	listener, err := net.Listen("tcp", ":8080")
 	if err != nil {
