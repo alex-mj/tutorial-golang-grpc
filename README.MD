@@ -1,5 +1,5 @@
 Hi.
-I'm simple gRPC service on Golang.
+I'm a simple gRPC service on Golang.
 
 I seem very complex (gRPC and other words).
 But actually, I am simple, just go step by step.
